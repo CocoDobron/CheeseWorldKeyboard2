@@ -12,7 +12,7 @@ public class Player {
     public int dx;                    //the speed of the hero in the x direction
     public int dy;                    //the speed of the hero in the y direction
     public Rectangle rec;
-    public Image pic;
+    public Image bobbiePic;
 
     //movement booleans
     public boolean right;
@@ -29,7 +29,7 @@ public class Player {
         height = 100;
         dx = dxParameter;
         dy = dyParameter;
-        pic = picParameter;
+        bobbiePic = picParameter;
         isAlive = true;
         rec = new Rectangle(xpos, ypos, width, height);
 
